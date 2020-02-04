@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="666e5264-d367-4e77-a5f2-1dfb3ff8131d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/repository/MultiplicationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/repository/MultiplicationResultAttemptRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/controller/MultiplicationResultAttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/controller/MultiplicationResultAttemptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/MultiplicationResultAttempt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/MultiplicationResultAttempt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/service/MultiplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/service/MultiplicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/service/MultiplicationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/service/MultiplicationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/multiplication-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/multiplication/controller/MultiplicationResultAttemptControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/multiplication/controller/MultiplicationResultAttemptControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/microservices/multiplication/service/MultiplicationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/microservices/multiplication/service/MultiplicationServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/controller/MultiplicationResultAttemptController$ResultResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/controller/MultiplicationResultAttemptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/controller/MultiplicationResultAttemptController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/Multiplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/MultiplicationResultAttempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/MultiplicationResultAttempt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/service/MultiplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/service/MultiplicationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/service/MultiplicationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/service/MultiplicationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/multiplication/controller/MultiplicationResultAttemptControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/multiplication/controller/MultiplicationResultAttemptControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/microservices/multiplication/service/MultiplicationServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/microservices/multiplication/service/MultiplicationServiceImplTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="666e5264-d367-4e77-a5f2-1dfb3ff8131d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -359,7 +328,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580695979421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580801912506" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/microservices/multiplication" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -500,7 +469,7 @@
       <updated>1580446003645</updated>
       <workItem from="1580446004830" duration="5177000" />
       <workItem from="1580453755559" duration="5218000" />
-      <workItem from="1580460697879" duration="4668000" />
+      <workItem from="1580460697879" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -534,7 +503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15063000" />
+    <option name="totallyTimeSpent" value="15529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,7 +515,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="958" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.22222222" />
