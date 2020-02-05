@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d30964e-f746-4a29-bd3e-3cfe2c182754" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gamification/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/microservies/gateway/configuration/WebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../service-registry/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gamification.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../gamification.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gamification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gamification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gamification/src/main/java/microservices/gamification/GamificationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gamification/src/main/java/microservices/gamification/GamificationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gamification/src/main/java/microservices/gamification/service/LeaderBoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gamification/src/main/java/microservices/gamification/service/LeaderBoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gamification/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gamification/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../multiplication.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../multiplication.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiplication.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/microservices/multiplication/MultiplicationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/microservices/multiplication/MultiplicationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/microservices/multiplication/MultiplicationApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/microservices/multiplication/MultiplicationApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/multiplication-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/webapps/ui/gamification-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/webapps/ui/gamification-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ui/webapps/ui/multiplication-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/webapps/ui/multiplication-client.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -261,7 +241,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580891058328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580893152432" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
