@@ -3,6 +3,7 @@ package microservices.multiplication.service;
 import microservices.multiplication.domain.Multiplication;
 import microservices.multiplication.domain.MultiplicationResultAttempt;
 import microservices.multiplication.domain.User;
+import microservices.multiplication.event.EventDispatcher;
 import microservices.multiplication.repository.MultiplicationResultAttemptRepository;
 import microservices.multiplication.repository.UserRepository;
 import microservices.multiplication.service.MultiplicationServiceImpl;
@@ -33,11 +34,14 @@ public class MultiplicationServiceImplTest {
   @Mock
   private UserRepository userRepository;
 
+  @Mock
+  private EventDispatcher eventDispatcher;
+
   @Before
   public void setUp() {
     // initMocks 를 호출해 Mockito 가 어노테이션을 처리하도록 지시
     MockitoAnnotations.initMocks(this);
-    multiplicationServiceImpl = new MultiplicationServiceImpl(randomGeneratorService, attemptRepository, userRepository);
+    multiplicationServiceImpl = new MultiplicationServiceImpl(randomGeneratorService, attemptRepository, userRepository,eventDispatcher);
   }
 
   @Test

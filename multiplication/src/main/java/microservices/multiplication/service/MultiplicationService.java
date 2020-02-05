@@ -4,12 +4,12 @@ import microservices.multiplication.domain.Multiplication;
 import microservices.multiplication.domain.MultiplicationResultAttempt;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface MultiplicationService {
 
   /**
-   * 두 개의 무작위 인수를 인수를 담은 {@link Multiplication} 객체를 생성한다.
-   * 무작위로 생성되는 숫자의 범위는 11~99.
+   * 두 개의 무작위 인수(11~99)를 담은 {@link Multiplication} 객체를 생성
    *
    * @return 무작위 인수를 담은 {@link Multiplication} 객체
    */
@@ -27,5 +27,13 @@ public interface MultiplicationService {
    * @return 해당 사용자가 전에 제출한 답안 객체 {@link MultiplicationResultAttempt}의 리스트
    */
   List<MultiplicationResultAttempt> getStatsForUser(final String userAlias);
+
+  /**
+   * ID에 해당하는 답안 조회
+   *
+   * @param resultId 답안의 식별자
+   * @return ID에 해당하는 {@link MultiplicationResultAttempt} 객체, 없으면 null
+   */
+  Optional<MultiplicationResultAttempt> getResultById(final Long resultId);
 
 }

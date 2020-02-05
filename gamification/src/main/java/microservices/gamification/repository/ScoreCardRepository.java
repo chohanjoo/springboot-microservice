@@ -19,7 +19,7 @@ public interface ScoreCardRepository extends CrudRepository<ScoreCard, Long> {
    * @param userId 총 점수를 조회하고자 하는 사용자의 ID
    * @return 주어진 사용자의 총 점수
    */
-  @Query("SELECT SUM(s.score) FROM microservices.book.gamification.domain.ScoreCard s WHERE s.userId = :userId GROUP BY s.userId")
+  @Query("SELECT SUM(s.score) FROM microservices.gamification.domain.ScoreCard s WHERE s.userId = :userId GROUP BY s.userId")
   int getTotalScoreForUser(@Param("userId") final Long userId);
 
   /**
@@ -27,8 +27,8 @@ public interface ScoreCardRepository extends CrudRepository<ScoreCard, Long> {
    *
    * @return 높은 점수 순으로 정렬된 리더 보드
    */
-  @Query("SELECT NEW microservices.book.gamification.domain.LeaderBoardRow(s.userId, SUM(s.score)) " +
-          "FROM microservices.book.gamification.domain.ScoreCard s " +
+  @Query("SELECT NEW microservices.gamification.domain.LeaderBoardRow(s.userId, SUM(s.score)) " +
+          "FROM microservices.gamification.domain.ScoreCard s " +
           "GROUP BY s.userId ORDER BY SUM(s.score) DESC")
   List<LeaderBoardRow> findFirst10();
 
